@@ -10,7 +10,7 @@ A macOS Finder Quick Action by **Moosh Massacre**. Export the stored merged imag
 
 Requires **macOS 14 Sonoma or later**. The installer includes a universal executable for Apple Silicon and Intel.
 
-1. Extract `PSD_to_PNG_Installer_v1.0.zip`.
+1. Download `PSD_to_PNG_Installer_v1.0.zip` from the [latest release](https://github.com/mooshmassacre/psd-to-png-mac/releases/latest) and extract it.
 2. Open `Install PSD to PNG.command`, click **Continue**, then **Install** (or **Replace**) in the macOS **Quick Action Installer**. This final native step registers the workflow with Finder.
 3. Select `.psd` or `.psb` files in Finder, then choose **Quick Actions → PSD to PNG**. The native Quick Action Installer registers the action for Finder. Close and reopen any menu that was already open during installation.
 
