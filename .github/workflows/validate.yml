@@ -1,0 +1,13 @@
+name: Validate
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build universal executable
+        run: ./scripts/build.sh
+      - name: Test conversion and packaging
+        run: python3 -m unittest discover -s tests -v
+      - name: Package installer
+        run: ./scripts/package.sh

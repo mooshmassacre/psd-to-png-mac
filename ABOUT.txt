@@ -1,0 +1,5 @@
+PSD to PNG 1.0.0
+Created by Moosh Massacre
+Contact: gustavo@mooshmassacre.studio
+Copyright (c) 2026 Moosh Massacre. MIT License.
+Independent macOS Finder Quick Action. Not affiliated with Adobe or Apple.
